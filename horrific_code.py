@@ -1,10 +1,10 @@
 
-fn = input("Please enter your Firstname: ")
-ln = input("Please enter your Lastname: ")
+user_firstname = input("Please enter your Firstname: ")
+user_lastname = input("Please enter your Lastname: ")
 
 
 def user():
-    print(f"Your fullname is {fn} {ln}")
+    print(f"Your fullname is {user_firstname} {user_lastname}")
 
 
 user()
